@@ -5,6 +5,6 @@ $(function() {
       : $('body')
     : $('html,body')
   $('.header-down-icon').on('click', function() {
-    $('.jq-features').trigger('click')
+    $body.animate({ scrollTop: $('#features').offset().top }, 1000)
   })
 })
