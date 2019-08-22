@@ -11,3 +11,17 @@ header.general__image-gradient .header-content {
   top: 50%;
   transform: translateY(-50%);
 }
+
+header.general__image-gradient
+  .header-content
+  .header-content-inner
+  .header-text {
+  margin-bottom: 25px;
+}
+
+.header-down-icon {
+  font-size: 30px;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  cursor: pointer;
+}
