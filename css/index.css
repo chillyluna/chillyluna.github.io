@@ -1,0 +1,13 @@
+.header-mask {
+  height: 100vh !important;
+}
+
+.header-contanier {
+  position: relative;
+  height: 100%;
+}
+
+header.general__image-gradient .header-content {
+  top: 50%;
+  transform: translateY(-50%);
+}
